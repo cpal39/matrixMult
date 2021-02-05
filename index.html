@@ -16,19 +16,25 @@
 	</nav>
 	<div id="main">
 		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					<form>
+			<form>
+				<div class="row">
+					<div class="col-md-6 col-sm-12">
 						<label for="m1">Matrix 1:</label><br>
 						<textarea name="m1" rows="3" cols="50"
 							placeholder="Enter your matrix here. Example of a 2x3 matrix:&#10;[1,2,3],&#10;[4,5,6]"></textarea><br>
+					</div>
+					<div class="col-md-6 col-sm-12">
 						<label for="m2">Matrix 2:</label><br>
 						<textarea name="m2" rows="3" cols="50"
 							placeholder="Enter your matrix here. Example of a 2x3 matrix:&#10;[1,2,3],&#10;[4,5,6]"></textarea><br>
-						<button id="submitButton" class="btn btn-primary">Submit</button>
-					</form>
+					</div>
 				</div>
-			</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<button id="submitButton" class="btn btn-primary">Submit</button>
+					</div>
+				</div>
+			</form>
 			<div id="results">
 			</div>
 		</div>

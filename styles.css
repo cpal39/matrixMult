@@ -10,3 +10,9 @@ html{
 #submitButton{
 	margin: 10px;
 }
+/* #formDiv{
+	width: 100%;
+} */
+textarea{
+	width: 100%;
+}
